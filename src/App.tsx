@@ -117,7 +117,7 @@ export default function App() {
         {/* Footer block */}
         <footer className="w-full pt-16 mt-16 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-mono select-none">
           <div className="text-zinc-500 uppercase tracking-widest text-[10px]">
-            © {new Date().getFullYear()} XOM 个人空间。以宁静构建。
+            © {new Date().getFullYear()} XOM 个人空间。
           </div>
           <div className="flex gap-6">
             <a

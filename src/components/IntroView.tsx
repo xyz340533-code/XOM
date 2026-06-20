@@ -77,7 +77,7 @@ export default function IntroView({ onNavigate }: IntroViewProps) {
             if (el) el.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          <span className="text-zinc-500 text-xs font-mono tracking-widest">SCROLL DOWN</span>
+          <span className="text-zinc-500 text-xs font-mono tracking-widest">向下滚动</span>
           <ChevronDown className="w-8 h-8 text-blue-400 animate-bounce" />
         </motion.div>
       </header>

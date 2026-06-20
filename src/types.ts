@@ -23,6 +23,7 @@ export interface HobbyItem {
   imageUrl: string;
   category: string;
   iconName: string;
+  themeId?: string;
 }
 
 export interface GuestbookMessage {
@@ -33,6 +34,7 @@ export interface GuestbookMessage {
   date: string;
   color: string; // Tailwind class background like 'bg-primary/10' or custom borders
   avatarIndex: number;
+  resounds?: number;
 }
 
 export interface CollectionItem {
@@ -43,4 +45,5 @@ export interface CollectionItem {
   category: 'book' | 'music' | 'tech' | 'site';
   rating: number; // 1-5 stars
   tags: string[];
+  url?: string;
 }

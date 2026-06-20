@@ -1,0 +1,6 @@
+{
+  "name": "XOM 个人空间",
+  "description": "XOM的个人空间，融合性格探索、技能展示、宇宙爱好及朋友留言板的极简星际主题主页。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

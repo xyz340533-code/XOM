@@ -233,7 +233,7 @@ export default function HobbiesView({ currentTheme, setCurrentTheme }: HobbiesVi
           className={`relative flex items-center gap-2 px-5 py-2.5 rounded-xl border font-sans text-xs font-bold tracking-wider cursor-pointer transition-all duration-300 select-none ${
             isAdding
               ? 'bg-blue-500/10 text-blue-300 border-blue-400 shadow-[0_0_15px_rgba(59,130,246,0.25)] scale-[1.02]'
-              : 'bg-white/[0.02] text-zinc-400 border-white/5 hover:bg-white/5 hover:text-zinc-200'
+              : 'bg-white/[0.02] text-zinc-400 border-white/10 hover:bg-white/5 hover:text-zinc-200'
           }`}
         >
           {isAdding ? <X className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
@@ -399,7 +399,7 @@ export default function HobbiesView({ currentTheme, setCurrentTheme }: HobbiesVi
                 className={`relative flex items-center justify-between px-4 py-3 rounded-xl border font-sans text-xs font-semibold cursor-pointer transition-all duration-300 select-none ${
                   isSelected
                     ? 'bg-white/10 text-white border-blue-400 shadow-[0_0_15px_rgba(59,130,246,0.2)] scale-[1.02]'
-                    : 'bg-white/[0.02] text-zinc-400 border-white/5 hover:bg-white/5 hover:text-zinc-200'
+                    : 'bg-white/[0.02] text-zinc-400 border-white/10 hover:bg-white/5 hover:text-zinc-200'
                 }`}
               >
                 <span className="truncate">{t.name}</span>

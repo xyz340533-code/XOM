@@ -283,10 +283,10 @@ export default function CollectionsView() {
       <div className="flex justify-center mb-10">
         <button
           onClick={() => setIsAdding(!isAdding)}
-          className={`flex items-center gap-2 px-5 py-2.5 rounded-xl font-sans text-xs font-bold tracking-wider cursor-pointer border transition-all active:scale-[0.98] ${
+          className={`relative flex items-center gap-2 px-5 py-2.5 rounded-xl border font-sans text-xs font-bold tracking-wider cursor-pointer transition-all duration-300 select-none ${
             isAdding
-              ? 'bg-red-400/10 text-red-300 border-red-400/20 hover:bg-red-400/20'
-              : 'bg-teal-400/20 text-teal-200 border-teal-300/30 hover:bg-teal-400/30 shadow-[0_0_15px_rgba(20,184,166,0.1)]'
+              ? 'bg-blue-500/10 text-blue-300 border-blue-400 shadow-[0_0_15px_rgba(59,130,246,0.25)] scale-[1.02]'
+              : 'bg-white/[0.02] text-zinc-400 border-white/10 hover:bg-white/5 hover:text-zinc-200'
           }`}
         >
           {isAdding ? <X className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
